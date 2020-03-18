@@ -1,14 +1,16 @@
 package com.atguigu.spingcloud.controller;
 
-import com.atguigu.spingcloud.entities.CommonResult;
-import com.atguigu.spingcloud.entities.Payment;
-import lombok.extern.slf4j.Slf4j;
+import javax.annotation.Resource;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-import javax.annotation.Resource;
+import com.atguigu.springcloud.entities.CommonResult;
+import com.atguigu.springcloud.entities.Payment;
+
+import lombok.extern.slf4j.Slf4j;
 
 @RestController
 @Slf4j
