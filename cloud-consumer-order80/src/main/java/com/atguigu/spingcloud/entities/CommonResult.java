@@ -1,4 +1,4 @@
-package com.springcloud.controller.entities;
+package com.atguigu.spingcloud.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
