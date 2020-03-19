@@ -16,7 +16,10 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class OrderController {
 
-    public static final String PAYMENT_URL = "http://localhost:8001";
+    // 单机版可写死
+    //public static final String PAYMENT_URL = "http://localhost:8001";
+    // 集群版，获取应用名字
+    public static final String PAYMENT_URL = "http://CLOUD-PAYMENT-SERVICE";
 
     @Resource
     private RestTemplate restTemplate;
