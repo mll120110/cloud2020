@@ -64,7 +64,7 @@ public class DruidDBConfig {
     @Value("${spring.datasource.druid.poolPreparedStatements}")
     private boolean poolPreparedStatements;
 
-    @Value("${spring.datasource.maxPoolPreparedStatementPerConnectionSize}")
+    @Value("${spring.datasource.druid.maxPoolPreparedStatementPerConnectionSize}")
     private int maxPoolPreparedStatementPerConnectionSize;
 
     @Value("${spring.datasource.druid.filters}")
